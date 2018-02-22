@@ -7,4 +7,4 @@ function makeFunctionArray(){
 }
 const functionArr = makeFunctionArray()
 
-functionArr[0]
+functionArr[0]()
