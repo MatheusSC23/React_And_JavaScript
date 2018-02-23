@@ -5,6 +5,7 @@ function makeHelloFuntion(){
 	}
 	return sayHello
 }
+
 const sayHello = makeHelloFuntion()
-console.log(message)
+
 sayHello()
