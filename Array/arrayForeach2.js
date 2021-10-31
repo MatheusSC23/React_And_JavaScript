@@ -10,10 +10,21 @@ Object.defineProperty(aprovados,'forEach',{
 	}
 })
 
-function defaultFunction(value,indice,array){
-	console.log('Não mudado')
-}
-
 aprovados.forEach( (e,i) =>{
 	console.log(e,i)
+})
+
+const aprovados2 = ['Agatha', 'Aldo','Daniel','Raquel']
+
+Object.defineProperty(aprovados2,'forEach2',{
+	value: function(callback){
+		for(indice in this){
+			callback(this[indice],indice,this)
+		}
+	},
+	enumerable: false
+})
+
+aprovados2.forEach2( (a,b,c) => {
+	console.log(a,b,c)
 })
