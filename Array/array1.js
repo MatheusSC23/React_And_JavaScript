@@ -16,3 +16,13 @@ console.log(aprovados.length)
 
 aprovados[9] = 'Rafael'
 console.log(aprovados)
+aprovados.sort()
+console.log(aprovados)
+
+delete aprovados[1]
+aprovados.sort()
+console.log(aprovados)
+
+aprovados = ['Bia','Carlos','Ana']
+aprovados.splice(2,0,'Elemento1','Elemento2')
+console.log(aprovados)
