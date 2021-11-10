@@ -1,5 +1,5 @@
 function multiplicar(num1, num2) {
-	result = 0
+	let result = 0
 	while(num1 > 0){
 		result += num2
 		num1--
