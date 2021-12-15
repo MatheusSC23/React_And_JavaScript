@@ -1,2 +1,2 @@
 const modulaA = require('../../moduloa')
-console.log(modulaA.cube(2))
+console.log(modulaA.ola)
