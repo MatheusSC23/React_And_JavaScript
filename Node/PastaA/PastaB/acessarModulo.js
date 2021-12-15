@@ -1,3 +1,5 @@
-const modulaA = require('../../moduloa')
+const modulaA = require('../../moduloA')
 console.log(modulaA.ola)
 console.log(modulaA.bemVindo)
+console.log(modulaA.calc(2))
+console.log(modulaA.sum(2,8))
