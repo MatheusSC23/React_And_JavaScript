@@ -1,0 +1,14 @@
+{
+  "name": "funcinarios",
+  "version": "1.0.0",
+  "description": "projeto do curso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Sousa Correia",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
